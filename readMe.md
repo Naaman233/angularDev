@@ -5,6 +5,6 @@ I may switch to node.js for the backend development of this platform
 
 To install bootstrap in your node_modules, run the following commands 
 firstly quit the development server using ctrl + c and then using the terminal run
-> npm install --save bootstrap
+> npm install --save bootstrap@3. The @3 is important as most of the bootstrap styling features work with it. 
 this will locally install bootstrap into your node_modules folder. 
 To declare bootstrap globally, locate your angular.json folder, In it you will see an array that houses all your styling properties. Copy the file path of the bootstap from the node_modules folder into it and start your server again to ensure that bootstrap is globally added. 
